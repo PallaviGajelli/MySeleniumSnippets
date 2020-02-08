@@ -1,0 +1,490 @@
+@Test
+	public void Fnp_Plants_021() throws IOException {
+		try {
+			
+			
+			
+		}catch(Exception e) {
+		      throw(e);
+		}
+		finally {
+			 driver.quit();
+			 Runtime rt =Runtime.getRuntime();
+			 Process proc = rt.exec("taskkill /im chrome.exe /f /t");
+		}
+	}
+-------------------------------------------------------------------------------------
+if (GiftPage.datetimeshipping.isDisplayed()) {
+				GiftPage.datetimeshipping.click();	
+			}else {
+				GiftPage.SelectDeliveryDate.click();
+			}
+---------------------------------------------------------------
+
+classes
+
+
+Actions actions = new Actions(driver);
+		    actions.moveToElement(Accounts.emailboxinaccounts);
+		    actions.sendKeys("abc123@mail.Com");
+
+
+My account,Anniversary_Flowers,Birthday_Cakes is remaining.
+
+https://www.practiceaptitudetests.com/free-tests/
+sdfdsf@sdfeadf.com
+
+
+Hello Sir/Madam,
+
+This is Pallavi Gajelli mother of 12 yr old down Sydrome with moderate learning difficuty .I am Looking for a school near west Dryton as we are moving to this place in 2nd week of may. I got to know about your school while searching on google.
+I would like to know more about addmission Procedure for my son .
+At present we are in swindon and my son is going to Uplands school in swindon.
+
+
+senadmin@hillingdon.gov.uk
+	
+Telephone: (01895) 277088
+Facsimile: (01895) 250878
+
+Kieran.Gibney.86642.cwj@rsgplc.aplitrak.com
+Kieran Gibney
+KG - TA - Swindon
+
+https://www.fnp.com/gift/truffle-cake?pos=1
+------------------------------------------------------------
+Logger log = Logger.getLogger("log4j");
+PropertyConfigurator.configure("log4j.properties");
+log.info("Log4j is working");
+		log.info("entering application URL");
+		log.warn("Hey this just a warning message");
+		log.fatal("hey this is just fatal error message");
+		log.debug("this is debug message");
+---------------------------------------------------------
+implicit wait
+driver.manage().timeouts().implicitlyWait(TimeOut, TimeUnit.SECONDS);
+
+explicit wait
+WebDriverWait wait = new WebDriverWait(WebDriverRefrence,TimeOut);
+
+WebDriverWait wait = new WebDriverWait(driver, 15);
+wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='text3']")));
+
+
+fluent wait
+Wait wait = new FluentWait(WebDriver reference)
+.withTimeout(timeout, SECONDS)
+.pollingEvery(timeout, SECONDS)
+.ignoring(Exception.class);
+-------------------------------------------------------
+Autoit
+ControlFocus(" title "," text ",controlID ) 
+ControlSetText(" title "," text ",controlID ," File path which need to upload " ) 
+ControlClick(" title "," text ",controlID ) 
+--------------------------------------------------------
+Runtime.getRuntime().exec("C:\\Users\\sanjaygajelli\\eclipse-workspace\\fnp\\AutoitFiles\\FileUpload.exe");
+------------------------------------------------------
+Properties prop = new Properties();
+FileInputStream ip = new FileInputStream(
+				"/Users/naveenkhunteta/Documents/workspace/MorningSessions/src/SeleniumSessions/config.properties");
+prop.load(ip);
+String browserName = prop.getProperty("browser");
+---------------------------------------------------
+driver.switchTo().frame("mainpanel")
+------------------------------------------
+driver.navigate().refresh();
+driver.navigate().forward();
+driver.navigate().back();
+----------------------------------------------------
+ Set<String>IDs= chrome.getWindowHandles();
+ java.util.Iterator<String> iter=IDs.iterator();
+String homewindow = iter.next(); 
+String cartwindow = iter.next();
+--------------------------------------------------------
+JavascriptExecutor js = (JavascriptExecutor) chrome;
+WebElement name = chrome.findElement(By.xpath("//*[@id=\"rNameId-1\"]"));
+js.executeScript("arguments[0].scrollIntoView();", name);
+name.sendKeys("chaya");
+
+JavascriptExecutor js = (JavascriptExecutor) driver;
+js.executeScript("arguments[0].click();", name);
+-------------------------------------------------------------
+
+public static void selectDateByJS(WebDriver driver, WebElement element, String dateVal){
+    	JavascriptExecutor js = ((JavascriptExecutor) driver);
+		js.executeScript("arguments[0].setAttribute('value','"+dateVal+"');", element);
+		
+	}
+--------------------------------------------------------------
+delete textbox
+loginEmailID.sendKeys(Keys.chord(Keys.CONTROL, "a", Keys.DELETE));
+-----------
+			 Actions a = new Actions(driver);
+			 a.sendKeys(CheckoutPage.rname, Keys.chord(Keys.CONTROL,"a")).perform();
+			 a.sendKeys(CheckoutPage.rname,Keys.DELETE).perform();
+-------------------------------------------------------------
+
+File screenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+FileUtils.copyFile(screenshotFile, new File("C:\\Users\\sanjaygajelli\\eclipse-workspace\\leena\\src\\sanitytest\\Screenshot.png"));
+-----------------------------------------------------------
+
+Actions action = new Actions(driver);
+action.moveToElement(driver.findElement(By.linkText("About Us"))).build().perform();
+
+Actions action = new Actions(driver);
+action.moveToElement(AllCakes.PinappleCake).click(AllCakes.PinappleCake).build().perform(); Thread.sleep(2000);
+
+------------------------------------------------------------------------------------
+breakLoop:
+			if(CheckoutPage.pwd.isDisplayed())
+			{
+				for(int i=1;i<999;i++)
+				{	
+					CheckoutPage.editEmailID.click();
+					Thread.sleep(1000);
+					CheckoutPage.loginEmailID.sendKeys(Keys.CONTROL, "a", Keys.DELETE);
+					String sEmail = "testabcd"+i+"@abcd.com";
+					CheckoutPage.loginEmailID.sendKeys(sEmail);
+					Thread.sleep(1000);
+					CheckoutPage.continuebutton.click();
+					Thread.sleep(1000);
+					
+					if(CheckoutPage.ReturnWelcomeCondition()==true)
+						break breakLoop;
+				}
+			}
+--------------------------------------------------------------------------------------------
+
+
+
+
+chromedriver 
+C:\Users\sanjaygajelli\Downloads\chromedriver_win32\chromedriver.exe
+
+geckodriver
+C:\Users\sanjaygajelli\Downloads\geckodriver-v0.24.0-win64\geckodriver.exe
+
+
+
+
+
+
+
+
+~~~ for HUB, use this command:
+java -jar selenium-server-standalone-3.8.1.jar -role hub
+
+~~~ for Node, use this command:
+java -Dwebdriver.chrome.driver="/Users/NaveenKhunteta/Downloads/chromedriver" -jar selenium-server-standalone-3.8.1.jar -role node -hub http://192.168.0.102:4444/grid/register
+FernsNPetalsTestData
+
+<listener class-name="fernsNPetals.util.WebEventListener"/>
+<listener class-name="fernsNPetals.extentReportListener.ExtentReporterNG"/>
+-------------------------------------------------------------------
+testmeapp1@gmail.comy
+test@2018
+
+WebElement mailID= driver.findElement(By.xpath("//*[@id=\"loginformEmailId\"]"));
+			  mailID.sendKeys("testmeapp1@gmail.com");	 
+			  driver.findElement(By.xpath("//*[@id=\"submit-check\"]/span[1]/span[1]")).click();
+              WebElement Pwd = driver.findElement(By.xpath("//*[@id=\"loginPassword\"]"));
+			  Pwd.sendKeys("test@2018");
+			  Thread.sleep(3000);
+			  driver.findElement(By.xpath("//*[@id=\"submit-check\"]/span[1]/span[1]")).click();
+                          Thread.sleep(3000);
+--------------------------------------------------------------------------
+https://www.guru99.com/pdf-emails-and-screenshot-of-test-reports-in-selenium.html
+------------------------------------------------------------------------------------
+file:///C:/Program%20Files/Git/ReleaseNotes.html
+-------------------------------------------------
+
+naveen automation lab 
+https://www.youtube.com/user/naveenanimation20
+----------------------------------------------------
+
+keyword driven framework
+https://www.youtube.com/watch?v=z-TugoHJYLo&list=PLFGoYjJG_fqqC7dUZGAHUMPb_1YrLDvq7
+
+----------------------------------------------------
+78 vedios on selenium automation by naveen
+https://www.youtube.com/watch?v=j2dkdqfzY9Y&list=PLFGoYjJG_fqo4oVsa6l_V-_7-tzBnlulT
+-------------------------------------------------------
+maven basics and integration jenkin+Git
+https://www.youtube.com/watch?v=rb5OL-QQPw4&list=PLFGoYjJG_fqrY1RKpMmoVxMzL57WNc8cf&index=3
+
+--------------------------------------------------------
+			  
+cucumber till POM by naveen
+https://www.youtube.com/watch?v=crpxZjB3qdo&list=PLFGoYjJG_fqoBFPevCDZDCufDX5h-o3yO&index=8 
+
+------------------------------------------------
+https://github.com/PallaviGajelli/MyQARepository.git
+---------------------------------------------------
+basic java
+https://www.youtube.com/watch?v=xriSN8igvy4&list=PLr6-GrHUlVf9SIx5cDhoEMknias5Xyv67
+https://www.w3schools.com/java/java_encapsulation.asp
+----------------------------------------------------------
+
+Swindon19@
+
+
+or create a new repository on the command line
+echo "# MyQARepository" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/PallaviGajelli/MyQARepository.git
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin https://github.com/PallaviGajelli/MyQARepository.git
+git push -u origin master
+
+
+C:\Users\sanjaygajelli\eclipse-workspace\leena
+
+
+Kieran.Gibney.29089.cwj@rsgplc.aplitrak.com
+Kieran Gibney
+The job reference is KG - TA - Swindon
+------------------------------------------------------------------------------
+https://www.guru99.com/database-testing-using-selenium-step-by-step-guide.html    
+
+https://search.maven.org/        for jars
+
+3306
+
+
+
+MAG .....Swiondon19
+-----------------------------------------------------
+
+
+------------------------------------------------------
+
+Test Estimation 
+https://www.youtube.com/watch?v=8njsMOggqXs
+
+-------------------------------------------------
+core JAVA
+https://www.youtube.com/watch?v=Wm0KeM90bUo&list=PLFGoYjJG_fqqyIj2ht0aHMx_HnGX3ZFEx
+---------------------------------------------------
+API Testing
+https://www.youtube.com/watch?v=qwc5A55MIYU&list=PLFGoYjJG_fqp891lruz5fCRPWsDtEXJky&index=3
+=======================================
+Rest API Online Practice Examples:
++ https://reqres.in/
+
++ http://www.groupkt.com/post/c9b0ccb9/...
+
++ Swagger API Doc: 
+http://fakerestapi.azurewebsites.net/...
+
++https://resttesttest.com/
+
+=======================================
+
+**Subscribe to this channel, and press bell icon to get some interesting videos on Selenium and Automation:
+
+https://www.youtube.com/c/Naveen%20Au...
+
+Follow me on my Facebook Page:
+https://www.facebook.com/groups/navee...
+
+-~-~~-~~~-~~-~-
+Follow my Site/Blog: http://www.naveenautomationlabs.com
+========================================================
+Please watch: "Selenium & Automation Interview Preparation - By Naveen AutomationLabs" 
+https://www.youtube.com/watch?v=Og-9P...
+-~-~~-~~~-~~-~-
+
+<dependency>
+    <groupId>com.sikulix</groupId>
+    <artifactId>sikulixapi</artifactId>
+    <version>1.1.0</version>
+</dependency>
+-----------------------------------------------------------
+
+#Set level
+log4j.rootCategory=debug, console, file  
+  
+# Appender which writes to console  
+log4j.appender.console=org.apache.log4j.ConsoleAppender  
+log4j.appender.console.layout=org.apache.log4j.PatternLayout
+log4j.appender.console.layout.ConversionPattern=%d{MM-dd-yyyy HH:mm:ss} %F %-5p [%t] %c{2} %L - %m%n
+  
+# Appender which writes to a file  
+log4j.appender.file=org.apache.log4j.RollingFileAppender
+log4j.appender.file.File=application.log
+  
+# Defining maximum size of a log file
+log4j.appender.file.MaxFileSize=10mb 
+log4j.appender.file.MaxBackupIndex=10
+log4j.appender.file.layout=org.apache.log4j.PatternLayout  
+log4j.appender.file.layout.ConversionPattern=%d{ISO8601} %5p [%t] %c{1}:%L - %m%n
+log4j.appender.file.Append=false
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+Meadow High School 11 am
+Moorcroft School   12 am  01895 437799
+Young People’s Academy 1.30pm  01895 446 747
+Achieving Together
+
+Hello sir/ madam,
+
+This is Pallavi Gajelli, Mother of Rishabh Gajelli.
+At present we are in Swindon and my son is going to Uplands school Swindon.  
+We are shifting to West Dryton UB77FN on 10th may. Hence looking for special school in that area.
+I would like to visit to the School for my Son Rishabh Gajelli(yr-7 Down Syndrome), and would be happy if get an appointment on 29th April -1.30 pm(Requesting all other schools visits on the same day,with different timings ,as we are coming from Swindon for visit).
+Hoping for the best ,and waiting for your reply.
+
+---------------------------------------------------------
+----------------------------------------------------------------
+guru99
+
+log4j.rootLogger=DEBUG,file
+log4j.appender.file=org.apache.log4j.RollingFileAppender
+log4j.appender.file.File=D:\\Guru99\\src\\Selenium.logs
+log4j.appender.file.maxFileSize=900KB
+log4j.appender.file.maxBackupIndex=5
+log4j.appender.file.layout=org.apache.log4j.PatternLayout
+log4j.appender.file.layout.ConversionPattern=%d{ABSOLUTE} %5p %c<strong>{1}</strong>:%L - %m%n
+log4j.appender.file.Append=false
+
+#Application Logs
+log4j.logger.devpinoyLogger=DEBUG, dest1
+log4j.appender.dest1=org.apache.log4j.RollingFileAppender
+log4j.appender.dest1.maxFileSize=900KB
+log4j.appender.dest1.maxBackupIndex=6
+log4j.appender.dest1.layout=org.apache.log4j.PatternLayout
+log4j.appender.dest1.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss} %c %m%n
+log4j.appender.dest1.File=D:\\ Guru99\\src\\Manual.logs
+log4j.appender.dest1.Append=false
+In the above Example, we have conf
+
+--------------------------------------------------------------------------
+
+
+
+how to verify text box is accepting 20 digits.10 login   for pass
+how to check continue btn is disabled.11 login 
+13 login continue btn is not disabled for empty form.
+
+18 19 -21 -login ---need to fetch password and OTP from emailId.
+
+testcase 8 ----change pass in ---my account.
+
+----------------------------------------------------------------------
+//save btn in the edit my account page is not working.
+//continue btn is not disabled in the login my account page.
+
+gajelli.pallavi@gmail.com
+0y19sQAR
+
+
+
+
+All_filters_in_category_page_TestSuite
+Testasurnamea@gmail.com
+Aleena@123
+
+Currency_TestSuite
+Testbsurnameb@gmail.com
+Bleena@123
+
+Plants_TestSuite     you need to delete add 
+Testcsurnamec@gmail.com
+Cleena@123
+
+
+<test parallel="classes" thread-count="3" name="RegrassionTest">
+<listeners>
+     <listener class-name="fernsNPetals.extentReportListener.ExtentReporterNG"/>
+</listeners>
+ <class name="fernsNPetals.TestSuites.All_filters_in_category_page_TestSuite"/>
+ <class name="fernsNPetals.TestSuites.Currency_TestSuite"/>
+      <class name="fernsNPetals.TestSuites.Plants_TestSuite"/>
+Logger log = Logger.getLogger("log4j");
+		PropertyConfigurator.configure("log4j.properties");
+
+
+--------------------------------------------------------------------------------------
+
+these are using @listener
+ <class name="fernsNPetals.TestSuites.Universal_search_TestSuite"/>
+ <class name="fernsNPetals.TestSuites.Microsite_TestSuite"/>
+
+Microsite_TestSuite
+testmeapp1@gmail.com
+test@2018
+
+---------------------------------------------------------
+Test EmailIdes
+
+Testasurnamea@gmail.com
+TestA@123
+jan F~
+Aleena
+Aleena@123
+1232345556
+
+Testbsurnameb@gmail.com
+TestB@123
+feb F~
+Blenna
+Bleena@123
+7405091846
+
+Testcsurnamec@gmail.com
+TestC@123
+march F~
+Cleena
+Cleena@123
+2342452352
+
+Testdsurnamed@gmail.com
+TestD@123
+April M~
+Dleena
+Dleena@123
+4353453465
+
+Testesurnamee@gmail.com
+TestE@123
+may F
+Eleena
+Eleena@123
+6756564546
+
+Testfsurnamef@gmail.com
+TestF@123
+june M
+Fleena
+Fleena@123
+
+-----------------------------------------------------------
+Testgsurnameg@gmail.com
+TestG@123
+july
+Testhsurnameh@gmail.com
+TestH@123
+aug
+Testisurnamei@gmail.com
+TestI@123
+sep
+Testjsurnamej@gmail.com
+TestJ@123
+Oct
+Testksurnamek@gmail.com
+TestK@123
+Nov
+Testlsurnamel@gmail.com
+TestL@123
+Dec
+
+Testmsurnamem@gmail.com
+TestM@123
+
+started on 11 march , 11 june ==== 3 months compleated.
+
+
